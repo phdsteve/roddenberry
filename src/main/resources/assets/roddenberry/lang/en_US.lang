@@ -1,0 +1,13 @@
+#Creative Tabs
+itemGroup.roddenberry=To Boldly Go
+
+#Items
+item.roddenberry:mapleLeaf.name=Maple Leaf
+
+#Blocks
+tile.roddenberry:flag.name=Canadian Flag
+
+#Keys
+keys.roddenberry.category=Roddenberry
+keys.roddenberry.charge=Charge
+keys.roddenberry.release=Release

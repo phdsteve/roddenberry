@@ -1,0 +1,21 @@
+[
+{
+  "modid": "roddenberry",
+  "name": "To Boldly Go",
+  "description": "A fan-built Star Trek mod.",
+  "version": "Rev1000",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "PhDSteve"
+  ],
+  "credits": "PhDSteve",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

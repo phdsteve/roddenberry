@@ -2,6 +2,11 @@
 itemGroup.roddenberry=To Boldly Go
 
 #Armors
+item.starfleetRedTunic.name=Starfleet Red Tunic
+item.starfleetYellowTunic.name=Starfleet Yellow Tunic
+item.starfleetBlueTunic.name=Starfleet Blue Tunic
+item.starfleetBlackPants.name=Starfleet Black Pants
+item.starfleetBlackBoots.name=Starfleet Black Boots
 
 #Blocks
 tile.roddenberry:flag.name=Canadian Flag

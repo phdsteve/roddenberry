@@ -2,6 +2,7 @@ package com.phdsteve.roddenberry;
 
 import com.phdsteve.roddenberry.client.handler.KeyInputEventHandler;
 import com.phdsteve.roddenberry.handler.ConfigurationHandler;
+import com.phdsteve.roddenberry.init.ModArmors;
 import com.phdsteve.roddenberry.init.ModBlocks;
 import com.phdsteve.roddenberry.init.ModItems;
 import com.phdsteve.roddenberry.init.Recipes;
@@ -30,6 +31,7 @@ public class roddenberry
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
         ModBlocks.init();
+        ModArmors.init();
         proxy.registerKeyBindings();
     }
 

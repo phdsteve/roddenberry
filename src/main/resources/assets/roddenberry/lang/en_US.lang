@@ -1,11 +1,14 @@
 #Creative Tabs
 itemGroup.roddenberry=To Boldly Go
 
-#Items
-item.roddenberry:mapleLeaf.name=Maple Leaf
+#Armors
 
 #Blocks
 tile.roddenberry:flag.name=Canadian Flag
+
+#Items
+item.roddenberry:mapleLeaf.name=Maple Leaf
+item.roddenberry:starfleetInsignia.name=Starfleet Insignia
 
 #Keys
 keys.roddenberry.category=Roddenberry

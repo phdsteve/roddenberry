@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "Rev1000"
+version = "1.7.10-Rev1000"
 group= "com.phdsteve.roddenberry" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ToBoldlyGo"
 

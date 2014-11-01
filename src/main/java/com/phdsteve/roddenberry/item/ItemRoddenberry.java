@@ -14,6 +14,7 @@ public class ItemRoddenberry extends Item
     {
         super();
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
+        this.setMaxStackSize(64);
     }
 
     @Override

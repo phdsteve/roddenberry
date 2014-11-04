@@ -6,6 +6,8 @@ public class ItemStarfleetInsignia extends ItemRoddenberry
     {
         super();
         this.setUnlocalizedName("starfleetInsignia");
+        this.setTextureName("roddenberry:starfleetInsignia");
+
         this.setMaxStackSize(1);
     }
 }

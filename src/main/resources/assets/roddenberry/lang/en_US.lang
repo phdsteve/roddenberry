@@ -9,11 +9,19 @@ item.starfleetBlackPants.name=Starfleet Black Pants
 item.starfleetBlackBoots.name=Starfleet Black Boots
 
 #Blocks
-tile.roddenberry:flag.name=Canadian Flag
+tile.flag.name=Canadian Flag
+tile.copperOre.name=Copper Ore
+tile.diburniumOre.name=Diburnium Ore
+tile.dilithiumOre.name=Dilithium Ore
+tile.dolamideOre.name=Dolamide Ore
+tile.duraniumOre.name=Duranium Ore
+tile.latinumOre.name=Latinum Ore
+tile.titaniumOre.name=Titanium Ore
+tile.tritaniumOre.name=Tritanium Ore
 
 #Items
-item.roddenberry:mapleLeaf.name=Maple Leaf
-item.roddenberry:starfleetInsignia.name=Starfleet Insignia
+item.mapleLeaf.name=Maple Leaf
+item.starfleetInsignia.name=Starfleet Insignia
 
 #Keys
 keys.roddenberry.category=Roddenberry

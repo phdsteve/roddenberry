@@ -6,5 +6,6 @@ public class ItemMapleLeaf extends ItemRoddenberry
     {
         super();
         this.setUnlocalizedName("mapleLeaf");
+        this.setTextureName("roddenberry:mapleLeaf");
     }
 }

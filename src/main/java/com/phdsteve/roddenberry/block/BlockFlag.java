@@ -6,6 +6,6 @@ public class BlockFlag extends BlockRoddenberry
     {
         super();
         this.setBlockName("flag");
-        this.setBlockTextureName("flag");
+        this.setBlockTextureName("roddenberry:flag");
     }
 }

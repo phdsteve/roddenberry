@@ -1,4 +1,4 @@
-package com.phdsteve.roddenberry.armor;
+package com.phdsteve.roddenberry.item.armor;
 
 import com.phdsteve.roddenberry.creativetab.CreativeTabRoddenberry;
 import com.phdsteve.roddenberry.init.ModArmors;

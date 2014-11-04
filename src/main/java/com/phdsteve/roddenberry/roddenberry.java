@@ -2,10 +2,7 @@ package com.phdsteve.roddenberry;
 
 import com.phdsteve.roddenberry.client.handler.KeyInputEventHandler;
 import com.phdsteve.roddenberry.handler.ConfigurationHandler;
-import com.phdsteve.roddenberry.init.ModArmors;
-import com.phdsteve.roddenberry.init.ModBlocks;
-import com.phdsteve.roddenberry.init.ModItems;
-import com.phdsteve.roddenberry.init.Recipes;
+import com.phdsteve.roddenberry.init.*;
 import com.phdsteve.roddenberry.proxy.IProxy;
 import com.phdsteve.roddenberry.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -32,6 +29,7 @@ public class roddenberry
         ModItems.init();
         ModBlocks.init();
         ModArmors.init();
+        ModTools.init();
         proxy.registerKeyBindings();
     }
 

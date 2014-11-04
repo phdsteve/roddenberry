@@ -1,6 +1,6 @@
 package com.phdsteve.roddenberry.init;
 
-import com.phdsteve.roddenberry.armor.StarfleetUniform;
+import com.phdsteve.roddenberry.item.armor.StarfleetUniform;
 import com.phdsteve.roddenberry.creativetab.CreativeTabRoddenberry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemArmor;

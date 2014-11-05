@@ -27,3 +27,28 @@ item.starfleetInsignia.name=Starfleet Insignia
 keys.roddenberry.category=Roddenberry
 keys.roddenberry.charge=Charge
 keys.roddenberry.release=Release
+
+#Tools
+item.copperPickaxe.name=Copper Pickaxe
+item.copperShovel.name=Copper Shovel
+item.copperAxe.name=Copper Axe
+item.copperHoe.name=Copper Hoe
+item.copperSword.name=Copper Sword
+
+item.titaniumPickaxe.name=Titanium Pickaxe
+item.titaniumShovel.name=Titanium Shovel
+item.titaniumAxe.name=Titanium Axe
+item.titaniumHoe.name=Titanium Hoe
+item.titaniumSword.name=Titanium Sword
+
+item.duraniumPickaxe.name=Duranium Pickaxe
+item.duraniumShovel.name=Duranium Shovel
+item.duraniumAxe.name=Duranium Axe
+item.duraniumHoe.name=Duranium Hoe
+item.duraniumSword.name=Duranium Sword
+
+item.tritaniumPickaxe.name=Tritanium Pickaxe
+item.tritaniumShovel.name=Tritanium Shovel
+item.tritaniumAxe.name=Tritanium Axe
+item.tritaniumHoe.name=Tritanium Hoe
+item.tritaniumSword.name=Tritanium Sword

@@ -10,5 +10,6 @@ public class ToolPickaxeDuranium extends ItemPickaxe
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("duraniumPickaxe");
+        this.setTextureName("roddenberry:duraniumPickaxe");
     }
 }

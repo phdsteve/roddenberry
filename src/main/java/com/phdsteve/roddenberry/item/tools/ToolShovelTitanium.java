@@ -10,5 +10,6 @@ public class ToolShovelTitanium extends ItemSpade
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("titaniumShovel");
+        this.setTextureName("roddenberry:titaniumShovel");
     }
 }

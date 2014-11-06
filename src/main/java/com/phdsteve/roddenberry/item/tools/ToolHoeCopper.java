@@ -10,5 +10,6 @@ public class ToolHoeCopper extends ItemHoe
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("copperHoe");
+        this.setTextureName("roddenberry:copperHoe");
     }
 }

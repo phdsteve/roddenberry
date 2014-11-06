@@ -10,5 +10,6 @@ public class ToolAxeCopper extends ItemAxe
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("copperAxe");
+        this.setTextureName("roddenberry:copperAxe");
     }
 }

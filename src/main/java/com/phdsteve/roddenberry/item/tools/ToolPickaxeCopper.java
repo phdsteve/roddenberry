@@ -10,5 +10,6 @@ public class ToolPickaxeCopper extends ItemPickaxe
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("copperPickaxe");
+        this.setTextureName("roddenberry:copperPickaxe");
     }
 }

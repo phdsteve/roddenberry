@@ -10,5 +10,6 @@ public class ToolHoeDuranium extends ItemHoe
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("duraniumHoe");
+        this.setTextureName("roddenberry:duraniumHoe");
     }
 }

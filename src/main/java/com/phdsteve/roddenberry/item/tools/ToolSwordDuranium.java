@@ -10,5 +10,6 @@ public class ToolSwordDuranium extends ItemSword
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("duraniumSword");
+        this.setTextureName("roddenberry:duraniumSword");
     }
 }

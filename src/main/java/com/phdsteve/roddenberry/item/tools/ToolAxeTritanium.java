@@ -10,5 +10,6 @@ public class ToolAxeTritanium extends ItemAxe
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("tritaniumAxe");
+        this.setTextureName("roddenberry:tritaniumAxe");
     }
 }

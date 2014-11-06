@@ -10,5 +10,6 @@ public class ToolPickaxeTritanium extends ItemPickaxe
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("tritaniumPickaxe");
+        this.setTextureName("roddenberry:tritaniumPickaxe");
     }
 }

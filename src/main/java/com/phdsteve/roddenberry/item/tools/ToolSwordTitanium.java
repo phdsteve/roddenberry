@@ -10,5 +10,6 @@ public class ToolSwordTitanium extends ItemSword
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("titaniumSword");
+        this.setTextureName("roddenberry:titaniumSword");
     }
 }

@@ -11,5 +11,6 @@ public class ToolSwordCopper extends ItemSword
         super(toolMaterial);
         this.setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB);
         this.setUnlocalizedName("copperSword");
+        this.setTextureName("roddenberry:copperSword");
     }
 }

@@ -10,18 +10,44 @@ item.starfleetBlackBoots.name=Starfleet Black Boots
 
 #Blocks
 tile.flag.name=Canadian Flag
+
+tile.copperBlock.name=Copper Block
 tile.copperOre.name=Copper Ore
+tile.diburniumBlock.name=Diburnium Block
 tile.diburniumOre.name=Diburnium Ore
+tile.dilithiumBlock.name=Dilithium Block
 tile.dilithiumOre.name=Dilithium Ore
+tile.dolamideBlock.name=Dolamide Block
 tile.dolamideOre.name=Dolamide Ore
+tile.duraniumBlock.name=Duranium Block
 tile.duraniumOre.name=Duranium Ore
+tile.latinumBlock.name=Latinum Block
 tile.latinumOre.name=Latinum Ore
+tile.titaniumBlock.name=Titanium Block
 tile.titaniumOre.name=Titanium Ore
+tile.tritaniumBlock.name=Tritanium Block
 tile.tritaniumOre.name=Tritanium Ore
 
 #Items
 item.mapleLeaf.name=Maple Leaf
+
+item.copperDust.name=Copper Dust
+item.copperIngot.name=Copper Ingot
+item.diburniumDust.name=Diburnium Dust
+item.diburniumIngot.name=Diburnium Ingot
+item.dilithiumCrystal.name=Dilithium Crystal
+item.dolamideDust.name=Dolamide Dust
+item.dolamideIngot.name=Dolamide Ingot
+item.duraniumDust.name=Duranium Dust
+item.duraniumIngot.name=DuraniumIngot
+item.latinumBar.name=Latinum Bar
+item.latinumSlip.name=Latinum Slip
+item.latinumStrip.name=Latinum Strip
 item.starfleetInsignia.name=Starfleet Insignia
+item.titaniumDust.name=Titanium Dust
+item.titaniumIngot.name=Titanium Ingot
+item.tritaniumDust.name=Tritanium Dust
+item.tritaniumIngot.name=Tritanium Ingot
 
 #Keys
 keys.roddenberry.category=Roddenberry

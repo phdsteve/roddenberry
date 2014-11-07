@@ -2,7 +2,8 @@ package com.phdsteve.roddenberry.init;
 
 import com.phdsteve.roddenberry.block.BlockFlag;
 import com.phdsteve.roddenberry.block.BlockRoddenberry;
-import com.phdsteve.roddenberry.block.ore.OreCopper;
+import com.phdsteve.roddenberry.block.gems.*;
+import com.phdsteve.roddenberry.block.metals.*;
 import com.phdsteve.roddenberry.block.ore.*;
 import com.phdsteve.roddenberry.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -10,6 +11,19 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks
 {
+    // Gems
+    public static BlockRoddenberry blockDilithium = new BlockDilithium();
+
+    // Metals
+    public static BlockRoddenberry blockCopper = new BlockCopper();
+    public static BlockRoddenberry blockDiburnium = new BlockDiburnium();
+    public static BlockRoddenberry blockDolamide = new BlockDolamide();
+    public static BlockRoddenberry blockDuranium = new BlockDuranium();
+    public static BlockRoddenberry blockLatinum = new BlockLatinum();
+    public static BlockRoddenberry blockTitanium = new BlockTitanium();
+    public static BlockRoddenberry blockTritanium = new BlockTritanium();
+
+    // Miscellaneous
     public static BlockRoddenberry flag = new BlockFlag();
 
     // Ores
@@ -24,6 +38,19 @@ public class ModBlocks
 
     public static void init()
     {
+        // Gems
+        GameRegistry.registerBlock(blockDilithium, "dilithiumBlock");
+
+        // Metals
+        GameRegistry.registerBlock(blockCopper, "copperBlock");
+        GameRegistry.registerBlock(blockDiburnium, "diburniumBlock");
+        GameRegistry.registerBlock(blockDolamide, "dolamideBlock");
+        GameRegistry.registerBlock(blockDuranium, "duraniumBlock");
+        GameRegistry.registerBlock(blockLatinum, "latinumBlock");
+        GameRegistry.registerBlock(blockTitanium, "titaniumBlock");
+        GameRegistry.registerBlock(blockTritanium, "tritaniumBlock");
+
+        // Miscellaneous
         GameRegistry.registerBlock(flag, "flag");
 
         // Ores

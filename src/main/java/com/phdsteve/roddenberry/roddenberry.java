@@ -36,7 +36,8 @@ public class roddenberry
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-        Recipes.init();
+        CraftingRecipes.init();
+        FurnaceRecipes.init();
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
     }
 

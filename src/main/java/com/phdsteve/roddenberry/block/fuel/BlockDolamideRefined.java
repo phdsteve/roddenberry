@@ -1,10 +1,10 @@
-package com.phdsteve.roddenberry.block.metals;
+package com.phdsteve.roddenberry.block.fuel;
 
 import com.phdsteve.roddenberry.block.BlockRoddenberry;
 
-public class BlockDolamide extends BlockRoddenberry
+public class BlockDolamideRefined extends BlockRoddenberry
 {
-    public BlockDolamide()
+    public BlockDolamideRefined()
     {
         super();
         this.setBlockName("dolamideBlock");

@@ -1,10 +1,10 @@
-package com.phdsteve.roddenberry.item.metals;
+package com.phdsteve.roddenberry.item.fuels;
 
 import com.phdsteve.roddenberry.item.ItemRoddenberry;
 
-public class ItemDustDolamide extends ItemRoddenberry
+public class ItemDolamideRaw extends ItemRoddenberry
 {
-    public ItemDustDolamide()
+    public ItemDolamideRaw()
     {
         super();
         this.setUnlocalizedName("dolamideDust");

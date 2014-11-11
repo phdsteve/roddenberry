@@ -23,3 +23,5 @@ public class FuelHandler implements IFuelHandler
         }
     }
 }
+
+//TODO Add Refined Dolamide Block to fuels - burn time 32000

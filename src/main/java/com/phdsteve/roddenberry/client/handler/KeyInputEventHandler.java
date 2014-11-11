@@ -1,6 +1,6 @@
 package com.phdsteve.roddenberry.client.handler;
 
-import com.phdsteve.roddenberry.client.Settings.Keybindings;
+import com.phdsteve.roddenberry.client.settings.Keybindings;
 import com.phdsteve.roddenberry.reference.Key;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;

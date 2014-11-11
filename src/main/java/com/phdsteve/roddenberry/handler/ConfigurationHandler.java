@@ -32,7 +32,7 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        boolean testValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example configuration value").getBoolean(true);
+//        boolean testValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example configuration value").getBoolean(true);
 
         if (configuration.hasChanged())
         {

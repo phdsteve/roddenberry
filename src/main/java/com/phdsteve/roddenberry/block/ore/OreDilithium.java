@@ -1,45 +1,37 @@
 package com.phdsteve.roddenberry.block.ore;
 
-import com.phdsteve.roddenberry.init.ModBlocks;
+import com.phdsteve.roddenberry.block.BlockRoddenberry;
+import com.phdsteve.roddenberry.init.ModItems;
 import net.minecraft.item.Item;
 
 import java.util.Random;
 
-public class OreDilithium extends Ore
+public class OreDilithium extends BlockRoddenberry
 {
     public OreDilithium()
     {
-        super(1, 1.0F);
+        super();
         this.setBlockName("dilithiumOre");
         this.setBlockTextureName("roddenberry:oreDilithium");
+
+        this.setHarvestLevel("pickaxe", 3);
+        this.setHardness(5.0F);
+        this.setLightLevel(0.4F);
     }
 
     public Item getItemDropped(int metadata, Random random, int fortune)
     {
-        return Item.getItemFromBlock(ModBlocks.oreDilithium);
+        return ModItems.gemDilithium;
     }
 
     @Override
-    public int getNumberPerChunk(int dimension)
+    public int quantityDropped(int meta, int fortune, Random random)
     {
-        return 0;
+        return 1 + fortune;
     }
 
-    @Override
-    public int getMaxGenHeight(int dimension)
-    {
-        return 0;
-    }
-
-    @Override
-    public int getMinGenHeight(int dimension)
-    {
-        return 0;
-    }
-
-    @Override
-    public int blocksPerVein(int dimension)
-    {
-        return 0;
-    }
+    public static int numberPerChunk = 1;
+    public static int maxGenHeight = 16;
+    public static int minGenHeight = 0;
+    public static int blocksPerVein = 4;
 }

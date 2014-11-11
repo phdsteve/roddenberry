@@ -9,5 +9,7 @@ public class BlockTitanium extends BlockRoddenberry
         super();
         this.setBlockName("titaniumBlock");
         this.setBlockTextureName("roddenberry:blockTitanium");
+        this.setHarvestLevel("pickaxe", 3);
+        this.setHardness(3.0F);
     }
 }

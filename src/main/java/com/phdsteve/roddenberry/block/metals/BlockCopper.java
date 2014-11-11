@@ -9,5 +9,7 @@ public class BlockCopper extends BlockRoddenberry
         super();
         this.setBlockName("copperBlock");
         this.setBlockTextureName("roddenberry:blockCopper");
+        this.setHarvestLevel("pickaxe", 2);
+        this.setHardness(3.0F);
     }
 }

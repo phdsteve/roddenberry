@@ -9,5 +9,7 @@ public class BlockLatinum extends BlockRoddenberry
         super();
         this.setBlockName("latinumBlock");
         this.setBlockTextureName("roddenberry:blockLatinum");
+        this.setHarvestLevel("pickaxe", 2);
+        this.setHardness(5.0F);
     }
 }

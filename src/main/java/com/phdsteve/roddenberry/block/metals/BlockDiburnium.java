@@ -9,5 +9,7 @@ public class BlockDiburnium extends BlockRoddenberry
         super();
         this.setBlockName("diburniumBlock");
         this.setBlockTextureName("roddenberry:blockDiburnium");
+        this.setHarvestLevel("pickaxe", 4);
+        this.setHardness(8.0F);
     }
 }

@@ -5,6 +5,8 @@ import com.phdsteve.roddenberry.handler.ConfigurationHandler;
 import com.phdsteve.roddenberry.init.*;
 import com.phdsteve.roddenberry.proxy.IProxy;
 import com.phdsteve.roddenberry.reference.Reference;
+import com.phdsteve.roddenberry.utility.LogHelper;
+import com.phdsteve.roddenberry.world.RoddenberryWorld;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -24,8 +26,10 @@ public class roddenberry
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+        LogHelper.info("Initializing To Boldly Go...");
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        RoddenberryWorld.initWorldGen();
         ModItems.init();
         ModBlocks.init();
         ModArmors.init();
@@ -44,5 +48,6 @@ public class roddenberry
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
+        LogHelper.info("To Boldly Go initialization complete.");
     }
 }

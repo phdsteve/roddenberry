@@ -1,11 +1,6 @@
 package com.phdsteve.roddenberry.block.ore;
 
 import com.phdsteve.roddenberry.block.BlockRoddenberry;
-import com.phdsteve.roddenberry.init.ModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-
-import java.util.Random;
 
 public class OreTritanium extends BlockRoddenberry
 {
@@ -15,12 +10,12 @@ public class OreTritanium extends BlockRoddenberry
         this.setBlockName("tritaniumOre");
         this.setBlockTextureName("roddenberry:oreTritanium");
 
-        this.setHardness(1.0F);
-        this.setStepSound(Block.soundTypeStone);
+        this.setHarvestLevel("pickaxe", 5);
+        this.setHardness(10.0F);
     }
 
-    public Item getItemDropped(int metadata, Random random, int fortune)
-    {
-        return Item.getItemFromBlock(ModBlocks.oreTritanium);
-    }
+    public static int numberPerChunk = 2;
+    public static int maxGenHeight = 36;
+    public static int minGenHeight = 12;
+    public static int blocksPerVein = 4;
 }

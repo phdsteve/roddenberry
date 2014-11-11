@@ -1,45 +1,21 @@
 package com.phdsteve.roddenberry.block.ore;
 
-import com.phdsteve.roddenberry.init.ModBlocks;
-import net.minecraft.item.Item;
+import com.phdsteve.roddenberry.block.BlockRoddenberry;
 
-import java.util.Random;
-
-public class OreDiburnium extends Ore
+public class OreDiburnium extends BlockRoddenberry
 {
     public OreDiburnium()
     {
-        super(1, 1.0F);
+        super();
         this.setBlockName("diburniumOre");
         this.setBlockTextureName("roddenberry:oreDiburnium");
+
+        this.setHarvestLevel("pickaxe", 5);
+        this.setHardness(10.0F);
     }
 
-    public Item getItemDropped(int metadata, Random random, int fortune)
-    {
-        return Item.getItemFromBlock(ModBlocks.oreDiburnium);
-    }
-
-    @Override
-    public int getNumberPerChunk(int dimension)
-    {
-        return 0;
-    }
-
-    @Override
-    public int getMaxGenHeight(int dimension)
-    {
-        return 0;
-    }
-
-    @Override
-    public int getMinGenHeight(int dimension)
-    {
-        return 0;
-    }
-
-    @Override
-    public int blocksPerVein(int dimension)
-    {
-        return 0;
-    }
+    public static int numberPerChunk = 3;
+    public static int maxGenHeight = 48;
+    public static int minGenHeight = 0;
+    public static int blocksPerVein = 4;
 }

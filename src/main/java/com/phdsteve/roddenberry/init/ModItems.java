@@ -1,8 +1,8 @@
 package com.phdsteve.roddenberry.init;
 
+import com.phdsteve.roddenberry.handler.FuelHandler;
 import com.phdsteve.roddenberry.item.*;
-import com.phdsteve.roddenberry.item.fuels.ItemDolamideRaw;
-import com.phdsteve.roddenberry.item.fuels.ItemDolamideRefined;
+import com.phdsteve.roddenberry.item.fuels.*;
 import com.phdsteve.roddenberry.item.gems.*;
 import com.phdsteve.roddenberry.item.metals.*;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -40,6 +40,7 @@ public class ModItems
     public static void init()
     {
         // Fuels
+        GameRegistry.registerFuelHandler(new FuelHandler());
         GameRegistry.registerItem(ingotDolamideRefined, "refinedDolamideIngot");
         GameRegistry.registerItem(dustDolamide, "rawDolamide");
 

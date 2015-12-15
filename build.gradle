@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-Build1000"
+version = "1.7.10-Build1001"
 group= "com.phdsteve.roddenberry" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ToBoldlyGo"
 
 minecraft {
-    version = "1.7.10-10.13.2.1231"
+    version = "1.7.10-10.13.4.1558-1.7.10"
     runDir = "idea"
 }
 

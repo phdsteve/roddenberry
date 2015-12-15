@@ -1,0 +1,11 @@
+To Boldly Go - Change Log
+
+Build 1000
+ - First project build.
+ - Stable release for Minecraft 1.7.10.
+
+Build 1001
+ - Upgraded Forge to version 1.7.10-10.13.4.1558-1.7.10
+ - Updated version number in build.gradle and Reference.java
+ - Stable build. Not a release build.
+

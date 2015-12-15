@@ -1,4 +1,4 @@
-package com.phdsteve.roddenberry.client.Settings;
+package com.phdsteve.roddenberry.client.settings;
 
 import com.phdsteve.roddenberry.reference.Names;
 import net.minecraft.client.settings.KeyBinding;

@@ -9,3 +9,14 @@ Build 1001
  - Updated version number in build.gradle and Reference.java
  - Stable build. Not a release build.
 
+Build 1002
+ - Corrected IntelliJ IDEA version 14+ bug for output directories.
+ - Removed Maple Leaf item and Flag block. These were demonstration items, not actual mod items.
+ - Reduced number of copper blocks per vein from 16 to 8.
+ - Reduced number of copper veins per chunk from 20 to 4.
+ - Added Refined Dolamide Block to FuelHandler with burn time 32000.
+ - Completed harvest information for Refined Dolamide Block (hardness and harvest level).
+ - Stable build. Not a release build.
+
+Build 1003
+ - 

@@ -1,10 +1,13 @@
 package com.phdsteve.roddenberry.init;
 
 import com.phdsteve.roddenberry.handler.FuelHandler;
+
 import com.phdsteve.roddenberry.item.*;
 import com.phdsteve.roddenberry.item.fuels.*;
 import com.phdsteve.roddenberry.item.gems.*;
 import com.phdsteve.roddenberry.item.metals.*;
+import com.phdsteve.roddenberry.item.misc.*;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModItems
@@ -34,7 +37,6 @@ public class ModItems
     public static final ItemRoddenberry latinumSlip = new ItemLatinumSlip();
     public static final ItemRoddenberry latinumStrip = new ItemLatinumStrip();
     public static final ItemRoddenberry starfleetInsignia = new ItemStarfleetInsignia();
-    public static final ItemRoddenberry mapleLeaf = new ItemMapleLeaf();
 
     //Game Registry
     public static void init()
@@ -64,7 +66,6 @@ public class ModItems
         GameRegistry.registerItem(latinumBar, "latinumBar");
         GameRegistry.registerItem(latinumSlip, "latinumSlip");
         GameRegistry.registerItem(latinumStrip, "latinumStrip");
-        GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
         GameRegistry.registerItem(starfleetInsignia, "starfleetInsignia");
 
     }

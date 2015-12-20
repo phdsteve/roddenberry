@@ -2,7 +2,9 @@ package com.phdsteve.roddenberry.world;
 
 import com.phdsteve.roddenberry.block.ore.*;
 import com.phdsteve.roddenberry.init.ModBlocks;
+
 import cpw.mods.fml.common.IWorldGenerator;
+
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;

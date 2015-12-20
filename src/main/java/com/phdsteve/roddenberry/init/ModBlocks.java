@@ -1,12 +1,12 @@
 package com.phdsteve.roddenberry.init;
 
-import com.phdsteve.roddenberry.block.BlockFlag;
 import com.phdsteve.roddenberry.block.BlockRoddenberry;
-import com.phdsteve.roddenberry.block.fuel.BlockDolamideRefined;
+import com.phdsteve.roddenberry.block.fuel.*;
 import com.phdsteve.roddenberry.block.gems.*;
 import com.phdsteve.roddenberry.block.metals.*;
 import com.phdsteve.roddenberry.block.ore.*;
 import com.phdsteve.roddenberry.reference.Reference;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
@@ -27,7 +27,6 @@ public class ModBlocks
     public static BlockRoddenberry blockTritanium = new BlockTritanium();
 
     // Miscellaneous
-    public static BlockRoddenberry flag = new BlockFlag();
 
     // Ores
     public static BlockRoddenberry oreCopper = new OreCopper();
@@ -56,7 +55,6 @@ public class ModBlocks
         GameRegistry.registerBlock(blockTritanium, "tritaniumBlock");
 
         // Miscellaneous
-        GameRegistry.registerBlock(flag, "flag");
 
         // Ores
         GameRegistry.registerBlock(oreCopper, "copperOre");

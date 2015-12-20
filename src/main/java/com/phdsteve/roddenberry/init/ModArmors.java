@@ -2,7 +2,9 @@ package com.phdsteve.roddenberry.init;
 
 import com.phdsteve.roddenberry.item.armor.StarfleetUniform;
 import com.phdsteve.roddenberry.creativetab.CreativeTabRoddenberry;
+
 import cpw.mods.fml.common.registry.GameRegistry;
+
 import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
 
@@ -17,6 +19,8 @@ public class ModArmors
     public static StarfleetUniform starfleetBlueTunic = (StarfleetUniform) new StarfleetUniform(UNIFORM, 4, 1).setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB).setUnlocalizedName("starfleetBlueTunic");
     public static StarfleetUniform starfleetBlackPants =(StarfleetUniform) new StarfleetUniform(UNIFORM, 4, 2).setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB).setUnlocalizedName("starfleetBlackPants");
     public static StarfleetUniform starfleetBlackBoots = (StarfleetUniform) new StarfleetUniform(UNIFORM, 4, 3).setCreativeTab(CreativeTabRoddenberry.RODDENBERRY_TAB).setUnlocalizedName("starfleetBlackBoots");
+
+    // TODO: Add minor protective value to uniforms - maybe 2 points total
 
     public static void init()
     {

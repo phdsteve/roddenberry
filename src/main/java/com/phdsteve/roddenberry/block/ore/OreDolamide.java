@@ -2,6 +2,7 @@ package com.phdsteve.roddenberry.block.ore;
 
 import com.phdsteve.roddenberry.block.BlockRoddenberry;
 import com.phdsteve.roddenberry.init.ModItems;
+
 import net.minecraft.item.Item;
 
 import java.util.Random;

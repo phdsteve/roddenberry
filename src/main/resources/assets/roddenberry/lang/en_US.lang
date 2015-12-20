@@ -1,3 +1,5 @@
+< en_US.lang - English localization file >
+
 #Creative Tabs
 itemGroup.roddenberry=To Boldly Go
 
@@ -9,8 +11,6 @@ item.starfleetBlackPants.name=Starfleet Black Pants
 item.starfleetBlackBoots.name=Starfleet Black Boots
 
 #Blocks
-tile.flag.name=Canadian Flag
-
 tile.copperBlock.name=Copper Block
 tile.copperOre.name=Copper Ore
 tile.diburniumBlock.name=Diburnium Block
@@ -29,8 +29,6 @@ tile.tritaniumBlock.name=Tritanium Block
 tile.tritaniumOre.name=Tritanium Ore
 
 #Items
-item.mapleLeaf.name=Maple Leaf
-
 item.copperDust.name=Copper Dust
 item.copperIngot.name=Copper Ingot
 item.diburniumDust.name=Diburnium Dust

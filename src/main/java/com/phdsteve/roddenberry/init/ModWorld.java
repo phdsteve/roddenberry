@@ -1,6 +1,7 @@
 package com.phdsteve.roddenberry.init;
 
 import com.phdsteve.roddenberry.world.OreGenerator;
+
 import cpw.mods.fml.common.IWorldGenerator;
 import cpw.mods.fml.common.registry.GameRegistry;
 

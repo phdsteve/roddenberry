@@ -1,6 +1,7 @@
 package com.phdsteve.roddenberry.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -17,8 +18,6 @@ public class CraftingRecipes
         GameRegistry.addRecipe(new ItemStack(ModArmors.starfleetYellowTunic), "g g", "byb", "bbb", 'g', new ItemStack(Blocks.wool, 1, 7), 'b', new ItemStack(Blocks.wool, 1, 15), 'y', new ItemStack(Blocks.wool, 1, 4));
 
         // Blocks
-//        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.flag), new ItemStack(ModItems.mapleLeaf), new ItemStack(ModItems.mapleLeaf));
-//        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.flag), new ItemStack(ModItems.mapleLeaf), new ItemStack(ModItems.mapleLeaf)));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.blockCopper), "iii", "iii", "iii", 'i', new ItemStack(ModItems.ingotCopper));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.blockDiburnium), "iii", "iii", "iii", 'i', new ItemStack(ModItems.ingotDiburnium));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.blockDolamideRefined), "iii", "iii", "iii", 'i', new ItemStack(ModItems.ingotDolamideRefined));
@@ -29,8 +28,6 @@ public class CraftingRecipes
         GameRegistry.addRecipe(new ItemStack(ModBlocks.blockLatinum), "bbb", "bbb", "bbb", 'b', new ItemStack(ModItems.latinumBar));
 
         // Items
-//        GameRegistry.addRecipe(new ItemStack(ModItems.mapleLeaf), " s ", "sss", " s ", 's', new ItemStack(Items.stick));
-//        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.mapleLeaf), " s ", "sss", " s ", 's', "stickWood"));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ingotCopper, 9), new ItemStack(ModBlocks.blockCopper));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ingotDiburnium, 9), new ItemStack(ModBlocks.blockDiburnium));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ingotDolamideRefined, 9), new ItemStack(ModBlocks.blockDolamideRefined));

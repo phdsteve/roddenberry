@@ -1,6 +1,8 @@
 package com.phdsteve.roddenberry.handler;
 
+import com.phdsteve.roddenberry.init.ModBlocks;
 import com.phdsteve.roddenberry.init.ModItems;
+
 import cpw.mods.fml.common.IFuelHandler;
 import net.minecraft.item.ItemStack;
 
@@ -17,11 +19,12 @@ public class FuelHandler implements IFuelHandler
         {
             return 3200;
         }
+
+        //TODO: Add Refined Dolamide Block to fuels list. Return fuel time of 32000.
+
         else
         {
             return 0;
         }
     }
 }
-
-//TODO Add Refined Dolamide Block to fuels - burn time 32000

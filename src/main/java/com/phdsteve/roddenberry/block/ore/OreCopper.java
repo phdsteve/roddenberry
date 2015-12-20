@@ -14,8 +14,8 @@ public class OreCopper extends BlockRoddenberry
         this.setHardness(3.0F);
     }
 
-    public static int numberPerChunk = 20;
+    public static int numberPerChunk = 4;
     public static int maxGenHeight = 64;
     public static int minGenHeight = 32;
-    public static int blocksPerVein = 16;
+    public static int blocksPerVein = 8;
 }

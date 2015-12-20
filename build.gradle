@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-Build1001"
+version = "1.7.10-Build1002"
 group= "com.phdsteve.roddenberry" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ToBoldlyGo"
 
@@ -61,3 +61,5 @@ processResources
         exclude 'mcmod.info'
     }
 }
+
+idea { module { inheritOutputDirs = true } }

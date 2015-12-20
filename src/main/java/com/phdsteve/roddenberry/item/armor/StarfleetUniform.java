@@ -2,6 +2,7 @@ package com.phdsteve.roddenberry.item.armor;
 
 import com.phdsteve.roddenberry.creativetab.CreativeTabRoddenberry;
 import com.phdsteve.roddenberry.init.ModArmors;
+
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
